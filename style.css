@@ -1,0 +1,44 @@
+.main, .todo, #todoList {
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#todoList {
+    flex-direction: column-reverse;
+}
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:visited {
+    color: grey;
+}
+a:hover {
+    text-decoration: underline;
+    color: green;
+}
+a:active {
+    color: blue;
+}
+button {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: none;
+    background: #378BA4;
+    color: #fff;
+}
+li {
+    display: flex;
+    align-items: center;
+}
+input {
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 12px;
+}
